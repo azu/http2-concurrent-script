@@ -12,5 +12,5 @@ const text = "${text}";
 console.log("Load ${i}.js");
 })();
     `, "utf-8")
-    console.log(`<script async src="script/${i}.js"></script>`)
+    console.log(`<script defer src="script/${i}.js"></script>`)
 })
