@@ -7,8 +7,10 @@ Array.from({ length: 25 }).forEach((_, i) => {
         return crypto.randomBytes(1024).toString('hex')
     }).join("__")
     fs.writeFileSync(path.join(__dirname, "script", i + ".js"), `
+(() => {
 const text = "${text}";
 console.log("Load ${i}.js");
+})();
     `, "utf-8")
     console.log(`<script async src="script/${i}.js"></script>`)
 })
