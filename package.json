@@ -1,0 +1,27 @@
+{
+  "name": "http2-concurrent-script",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/azu/http2-concurrent-script",
+  "bugs": {
+    "url": "https://github.com/azu/http2-concurrent-script/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/http2-concurrent-script.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "main": "lib/http2-concurrent-script.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
